@@ -21,8 +21,12 @@ A comprehensive React application demonstrating Phantom wallet integration using
 ## 📦 Installation
 
 ```bash
-# Install dependencies
-npm install
+# Clone the repository
+git clone <repository-url>
+cd solana-wallet-sdk-example
+
+# Install dependencies (use --legacy-peer-deps to resolve React version conflicts)
+npm install --legacy-peer-deps
 
 # Start development server
 npm run dev
